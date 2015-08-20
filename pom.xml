@@ -42,4 +42,11 @@
             </plugin>
         </plugins>
     </build>
+<distributionManagement>
+   <repository>
+       <id>Jenkins</id>
+       <name>HelloMaven</name>
+       <url>http://localhost:8081/nexus/content/repositories/Jenkins</url>
+    </repository>
+</distributionManagement>
 </project>
