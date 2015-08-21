@@ -12,12 +12,12 @@
         <repository>
             <id>nexus</id>
             <name>Releases</name>
-            <url>http://svn.myserver.com/content/repositories/releases</url>
+            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>Snapshots</name>
-            <url>http://svn.myserver.com/content/repositories/snapshots</url>
+            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
         </snapshotRepository>
     </distributionManagement>
 
