@@ -78,13 +78,4 @@
     </repository>
 </distributionManagement>
 
-<settings>
-  <servers>
-    <server>
-      <id>Jenkins</id>
-      <username>admin</username>
-      <password>admin123</password>
-    </server>
-  </servers>
-</settings>
 </project>
