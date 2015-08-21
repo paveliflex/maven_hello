@@ -77,4 +77,14 @@
        <url>http://localhost:8081/nexus/content/repositories/Jenkins</url>
     </repository>
 </distributionManagement>
+
+<settings>
+  <servers>
+    <server>
+      <id>Jenkins</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+  </servers>
+</settings>
 </project>
